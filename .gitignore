@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+MIMO_Tensorrt/weights/MIMO-UNetPlus.pkl
