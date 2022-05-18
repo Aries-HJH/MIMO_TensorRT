@@ -17,7 +17,7 @@ Using TensorRT inference MIMO-UnetPlus on the jetson TX2, but I don't know to pr
 
 ​	`cd MIMO_Tensorrt/weights`
 
-​	`trtexec --onnx='your_model'.onnx --verbose --explicitBatch --shapes=input_name:1x3x720x1080 --saveEngine='engineName'.engine`
+​	`trtexec --onnx='your_model'.onnx --verbose --explicitBatch --shapes=input_name:1x3x720x1280 --saveEngine='engineName'.engine`
 
 **Note**: Make sure your environment variables are set.
 
